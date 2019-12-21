@@ -1,0 +1,21 @@
+// * Navigation styles
+
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  & > ul {
+    list-style: none;
+    display: flex;
+    & > li {
+      margin-right: 1em;
+      & > a {
+        &.is-visible {
+          border-bottom: 2px solid $primary;
+        }
+      }
+    }
+  }
+}

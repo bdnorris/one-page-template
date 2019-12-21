@@ -1,0 +1,10 @@
+// * Could be used for layout styles
+
+
+.band {
+  min-height: 80vh;
+}
+
+article {
+  @include default-sizing($xlarge);
+}
