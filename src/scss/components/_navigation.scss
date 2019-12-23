@@ -2,18 +2,24 @@
 
 nav {
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   right: 0;
+  bottom: 0;
   top: 0;
   height: 80px;
+  background-color: darken($ddblue, 7%);
   & > ul {
     list-style: none;
     display: flex;
+    margin: 0 0 0.5em 0;
     & > li {
       margin-right: 1em;
       & > a {
         &.is-visible {
-          border-bottom: 2px solid $primary;
+          border-bottom: 4px solid $wheat;
         }
       }
     }

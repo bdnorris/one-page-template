@@ -1,5 +1,6 @@
 export default () => {
   
+  /*
   console.log("Hello World!");
 
   // testing arrow functions
@@ -11,4 +12,5 @@ export default () => {
   document.querySelectorAll('h2').forEach((d) => {
     console.log(d.innerText);
   })
+  */
 }

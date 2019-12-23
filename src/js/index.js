@@ -7,3 +7,5 @@ import navigation from "./scripts/navigation.js";
 
 myscript();
 navigation();
+
+zenscroll.setup(800, 100);

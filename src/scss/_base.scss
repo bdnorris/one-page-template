@@ -8,7 +8,7 @@ body {
   font-family: $sans;
   font-size: $browser-context * 1px; // ! the multiplication enforces pixels, even if you don't specify
   color: $text;
-  background-color: $llgray;
+  background-color: $background;
   padding: 0;
   margin: 0;
   /* font weight normalization */
@@ -19,6 +19,7 @@ body {
     // add this class with javascript when you launch a modal or something, to prevent background scrolling
     overflow: hidden;
   }
+  padding-top: 80px;
 }
 
 // responsive images
