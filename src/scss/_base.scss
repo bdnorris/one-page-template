@@ -9,6 +9,7 @@ body {
   font-size: $browser-context * 1px; // ! the multiplication enforces pixels, even if you don't specify
   color: $text;
   background-color: $background;
+  background-image: url('/images/so-blue.png');
   padding: 0;
   margin: 0;
   /* font weight normalization */
