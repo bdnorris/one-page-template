@@ -7,4 +7,18 @@
 
 article {
   @include default-sizing($xlarge);
+  display: flex;
+  flex-flow: column-reverse;
+  padding: 2em 0;
+  & > div {
+    &:first-child {
+      flex: 0 0 50%;
+    }
+    &:last-child {
+      flex: 0 0 50%;
+    }
+  }
+  @include breakpoint(large){
+    flex-flow: row;
+  }
 }

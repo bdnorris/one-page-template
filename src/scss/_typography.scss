@@ -11,7 +11,7 @@ $factor: 1.4;
 h1, .h1 {
   font-weight: 800;
   line-height: 1.25;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
   font-size: em($factor*32);
   @include breakpoint(large) {
     font-size: em($factor*40);
@@ -66,7 +66,7 @@ h4, .h4 {
 a {
   color: $clickable;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 p, .p {

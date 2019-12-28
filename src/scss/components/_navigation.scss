@@ -3,24 +3,40 @@
 nav {
   position: fixed;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
-  height: 80px;
+  height: 160px;
   background-color: darken($ddblue, 7%);
+  z-index: map-get($z, top );
   & > ul {
     list-style: none;
     display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     margin: 0 0 0.5em 0;
     & > li {
-      margin-right: 1em;
+      margin-bottom: 1em;
+      text-align: center;
       & > a {
+        padding: 0 0.5em;
         &.is-visible {
           border-bottom: 4px solid $wheat;
         }
+      }
+    }
+  }
+  @include breakpoint(large) {
+    height: 80px;
+    & > ul {
+      flex-flow: row;
+      & > li {
+        margin-right: 1em;
       }
     }
   }
