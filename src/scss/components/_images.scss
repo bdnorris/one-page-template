@@ -1,0 +1,7 @@
+.image {
+  padding: 1.5em;
+  opacity: 0;
+  @include breakpoint(large) {
+    padding: 4em;
+  }
+}

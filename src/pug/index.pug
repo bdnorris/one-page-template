@@ -1,19 +1,46 @@
 extends layouts/default.pug
 
 block content
-  section(class='band', id='about', data-trigger)
+  section(class='band', id='down-the-rabbit-hole', data-trigger)
     article
-      h1= 'Pug Starter'
-      - var pets = ['cat', 'dog']
-      each petName in pets
-        p= petName
-      p= '"Because George wants to invite him to the ball," said Fred sarcastically.  "Because we want to send a letter, you stupid great prat," said George. "Who d&rsquo;you two keep writing to, eh?" said Ron. "Nose out, Ron, or I&rsquo;ll burn that for you too," said Fred, waving his wand threateningly. "So . . . you lot got dates for the ball yet?"'
-      h2= 'Heading 2'
-      h3= 'Heading 3'
-      h4= 'Heading 4'
-  section(class='band', id='story', data-trigger)
+      div
+        h1= 'Down the Rabbit-Hole'
+        p= 'There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, ‘Oh dear! Oh dear! I shall be late!’ (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.'
+      div(class='image slit-in-diagonal-1')
+        img(src='/images/De_Alices_Abenteuer_im_Wunderland_Carroll_pic_02.png')
+  //- section(class='band', id='down-the-rabbit-hole-2', data-trigger)
+  //-   article
+  //-     div
+  //-       p= 'There were doors all round the hall, but they were all locked; and when Alice had been all the way down one side and up the other, trying every door, she walked sadly down the middle, wondering how she was ever to get out again.'
+  //-       p= 'Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them. However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!'
+  //-     div(class='slit-in-diaganal-1')
+  //-       img(src='/images/De_Alices_Abenteuer_im_Wunderland_Carroll_pic_03.png')
+  //- section(class='band', id='down-the-rabbit-hole-3', data-trigger)
+  //-   article
+  //-     div
+  //-       p= 'There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (‘which certainly was not here before,’ said Alice,) and round the neck of the bottle was a paper label, with the words ‘DRINK ME’ beautifully printed on it in large letters.'
+  //-     div(class='slit-in-diagonal-1')
+  //-       img(src='/images/De_Alices_Abenteuer_im_Wunderland_Carroll_pic_04.png')
+  section(class='band', id='pool-of-tears', data-trigger)
     article
-      h1= 'Our Story'
-  section(class='band', id='section', data-trigger)
+      div
+        h1= 'The Pool of Tears'
+        p= 'You ought to be ashamed of yourself,’ said Alice, ‘a great girl like you,’ (she might well say this), ‘to go on crying in this way! Stop this moment, I tell you!’ But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall.'
+      div(class='image slide-in-right')
+        img(src='/images/De_Alices_Abenteuer_im_Wunderland_Carroll_pic_07.png')
+  section(class='band', id='rabbit-sends-in', data-trigger)
     article
-      h1= 'Section'
+      div
+        h1= 'The Rabbit Sends in a Little Bill'
+        p= 'It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, saying to herself ‘That’s quite enough — I hope I shan’t grow any more — As it is, I can’t get out at the door — I do wish I hadn’t drunk quite so much!’'
+      div(class='image flip-in-ver-left')
+        img(src='/images/De_Alices_Abenteuer_im_Wunderland_Carroll_pic_11.png')
+  section(class='band', id='advice-from-caterpillar', data-trigger)
+    article
+      div
+        h1= 'Advice from a Caterpillar'
+        p= 'The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.'
+        p= '‘Who are you?’ said the Caterpillar.'
+        p= 'This was not an encouraging opening for a conversation. Alice replied, rather shyly, ‘I — I hardly know, sir, just at present — at least I know who I was when I got up this morning, but I think I must have been changed several times since then.’'
+      div(class='image puff-in-center')
+        img(src='/images/De_Alices_Abenteuer_im_Wunderland_Carroll_pic_15.png')
